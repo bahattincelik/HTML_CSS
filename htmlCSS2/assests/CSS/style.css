@@ -27,3 +27,6 @@ th {
 tr:hover {
   background-color: rgb(155, 151, 151);
 }
+tr:nth-child(even) {
+  background-color: rgba(240, 237, 237, 120);
+}
