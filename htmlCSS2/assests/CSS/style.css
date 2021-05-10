@@ -1,0 +1,29 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 30px;
+}
+/*solid | double | dashed*/
+/* cizgi kalinligi, turu, renk */
+.tablo {
+  border: 4px solid grey;
+  border-collapse: collapse;
+  width: 50%; /* Yuzdelik dilim sayafa gore hesaplanir*/
+  margin-left: auto; /*Sol ve Sag' dan otomatik bosluk koyarak nesneler ortaya hizalanabilir. */
+  margin-right: auto;
+}
+/* Birden fazla attribute ' e ayni stillendirme yapilacaksa virgulle ayrilarak yazilabilir.' */
+th,
+td {
+  border: 2px solid grey;
+}
+th {
+  background-color: yellowgreen;
+}
+tr:hover {
+  background-color: rgb(155, 151, 151);
+}
